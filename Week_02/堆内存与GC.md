@@ -1,4 +1,3 @@
-
 ### 1.堆内存
 jvm中的堆内存主要用来存储java对象实例以及数组，堆内存分为年轻代（Young Generation）、老年代（Old Generation）。
 
