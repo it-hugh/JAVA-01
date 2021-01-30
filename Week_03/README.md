@@ -1,1 +1,4 @@
-学习笔记
+1. 启动server下的BackendServer01、BackendServer02
+2. 在老师代码基础上测试修改了requestFilter 和 responseFilter
+3. 测试使用route随机访问两个服务
+4. 实现了OkhttpOutboundHandler整合了上次作业代码
