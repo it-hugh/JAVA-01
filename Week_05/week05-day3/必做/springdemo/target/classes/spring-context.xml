@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="com.hugh.beans"/>
+
+    <bean id="xmlBean" class="com.hugh.beans.XmlBean">
+        <property name="id" value="1"/>
+        <property name="name" value="bean-xml"/>
+    </bean>
+
+    <bean id="beanPrinter" class="com.hugh.beans.BeanPrinter">
+    </bean>
+</beans>
